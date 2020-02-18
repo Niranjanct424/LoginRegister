@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.main {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	text-align: center;
+	box-shadow: 1px 1px 3px 0.2px;
+	color: black;
+	padding: 0 92px 48px 99px;
+	margin-top: 80px;
+	background: transparent;
+}
+input {
+	    height: 29px;
+    border-radius: 6px;
+    text-align: center;
+}
