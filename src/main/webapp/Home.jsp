@@ -33,6 +33,11 @@ body {
 	background-color: #4CAF50;
 	color: white;
 }
+.home-page{
+	text-align: center;
+    margin-top: 60px;
+    padding-left: 292px
+}
 </style>
 </head>
 <body>
@@ -42,7 +47,7 @@ body {
 		<a href="Login.jsp">Login</a> <a href="#about">About</a>
 	</div>
 
-	<div style="padding-left: 16px">
+	<div class="home-page">
 		<h2>Welcome To Our Page..</h2>
 		<p>You can Watch some content here</p>
 		<p>Please login to for more info</p>

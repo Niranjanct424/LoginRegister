@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="#E6E6FA">
+<body background: border-box>
 
 	<%
 		if (session.getAttribute("user") == null) {
@@ -15,8 +15,9 @@
 	%>
 	
 	<br>
-	<h1 style="color: orange;">Welcome to  is your Profile</h1>
+	<h1 style="color: orange;" align="center">Welcome To The Page </h1>
 	<br>
-	<a href="ViewServlet?page=1">View-Register-Data</a>
+	<h2 align="center" style="color:cadetblue;">Click below link see user details</h2><br>
+	<h1 align="center"><a href="ViewServlet?page=1">View-Register-Data</a></h1>
 </body>
 </html>
